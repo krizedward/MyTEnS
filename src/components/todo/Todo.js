@@ -1,5 +1,6 @@
 import './Todo.css'
 import TodoList from "../todo-list/TodoList";
+import TodoCreate from "../todo-create/TodoCreate";
 
 const Todo = () => {
     const data =  [
@@ -10,7 +11,8 @@ const Todo = () => {
 
     return (
         <div>
-            <h3>Todo List</h3>
+            <h3>List repository</h3>
+            <TodoCreate />
             <TodoList data={data}/>
         </div>
     )
