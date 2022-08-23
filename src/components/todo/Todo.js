@@ -11,7 +11,7 @@ const Todo = () => {
     return (
         <div>
             <h3>Todo List</h3>
-            <TodoList />
+            <TodoList data={data}/>
         </div>
     )
 }
